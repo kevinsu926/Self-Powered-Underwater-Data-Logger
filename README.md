@@ -15,12 +15,10 @@ This project is a self-powered underwater data logger built around a PIC16F micr
 
 <p align="center">
   <img width="475" alt="image" src="https://github.com/user-attachments/assets/d4fe16e6-0846-4fea-b715-440f881fc52f" />
-</p>
+</p>  
 
 ## Schematic
 <p align="center">
   <img width="1631" height="733" alt="image" src="https://github.com/user-attachments/assets/0b574a49-3105-4faf-8905-0c7a2ce4b28d" />
 </p>
-
-## Firmware Architecture
 
