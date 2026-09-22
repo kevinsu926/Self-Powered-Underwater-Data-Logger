@@ -11,6 +11,7 @@ This project is a self-powered underwater data logger built around a PIC16F micr
 
 <p align="center">
 <img width="475" height="479" alt="image" src="https://github.com/user-attachments/assets/05c52dc5-d40d-4570-9002-53944f26b4a1" />
+  <img width="465" alt="image" src="https://github.com/user-attachments/assets/11682b51-2d4f-44a4-a9de-dd3fa9ae748c" />
 </p>
 <p align="center">
 <strong>A self-powered underwater piezoelectric based data logger with minimized PCB architecture ((20.3 mm × 20.4 mm)</strong>
