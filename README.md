@@ -37,7 +37,7 @@ This project is a self-powered underwater data logger built around a PIC16F micr
 </p>
 
 ## Firmware Architecture
-- **Sleep mode:** The PIC16F stays in low-power sleep  while the LTC3588 rectifies and stores piezoelectric energy in a rechargable battery
+- **Sleep mode:** The PIC16F stays in low-power sleep  while the BQ25570 rectifies and stores piezoelectric energy in a rechargable battery
 - **Threshold wake:** Once capacitor voltage crosses set threshold, an interrupt wakes the MCU
 - **Sense and store:** The MCU reads the temperature sensor, maps, and stores the reading
 - **Acoustic transmission:** The MCU drives an attached piezoelectric transducer with GPIO-generated pulses to transmit the data acoustically
