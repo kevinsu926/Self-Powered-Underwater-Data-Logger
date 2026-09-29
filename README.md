@@ -5,7 +5,6 @@
   <img src="https://img.shields.io/badge/Firmware-Embedded%20C-00599C?style=flat-square" alt="Firmware: Embedded C">
   <img src="https://img.shields.io/badge/Harvester-TI%20BQ25570-2E8B57?style=flat-square" alt="Harvester: BQ25570">
   <img src="https://img.shields.io/badge/Storage-Supercapacitor-6A1B9A?style=flat-square" alt="Storage: Supercapacitor">
-  <img src="https://img.shields.io/badge/Presented-MILSET%20Abu%20Dhabi-F2A900?style=flat-square" alt="Presented at MILSET">
 </p>
 
 <p align="center">
