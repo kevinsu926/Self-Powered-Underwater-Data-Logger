@@ -5,6 +5,7 @@
   <img src="https://img.shields.io/badge/Firmware-Embedded%20C-00599C?style=flat-square" alt="Firmware: Embedded C">
   <img src="https://img.shields.io/badge/Harvester-TI%20BQ25570-2E8B57?style=flat-square" alt="Harvester: BQ25570">
   <img src="https://img.shields.io/badge/Storage-Supercapacitor-6A1B9A?style=flat-square" alt="Storage: Supercapacitor">
+  <img src="https://img.shields.io/badge/Status-Work%20in%20Progress-E67E22?style=flat-square" alt="Status: Work in Progress">
 </p>
 
 <p align="center">
@@ -25,6 +26,9 @@ I designed the **20.3 mm × 20.4 mm PCB** and wrote the embedded C firmware. The
 
 The project was selected for presentation with **Team Canada at MILSET in Abu Dhabi**.
 
+> [!NOTE]
+> This project is a **work in progress**. Benchtop testing is complete, and I'm now moving into real underwater testing. See [Project Status](#project-status) for details.
+
 ## Table of Contents
 
 - [Features](#features)
@@ -33,6 +37,7 @@ The project was selected for presentation with **Team Canada at MILSET in Abu Dh
 - [Hardware](#hardware)
 - [Firmware](#firmware)
 - [Acoustic Transmission](#acoustic-transmission)
+- [Project Status](#project-status)
 
 ## Features
 
@@ -149,3 +154,14 @@ flowchart LR
 ## Acoustic Transmission
 
 Instead of a radio, which works poorly underwater, the logger communicates acoustically. The PIC16F1823 toggles a GPIO pin to drive a piezoelectric transducer, turning each temperature reading into a sequence of sound pulses that propagate through the water to a nearby receiver. This keeps the transmitter to a single pin and no extra driver hardware, which fits the tight energy and board-space budget.
+
+## Project Status
+
+**Work in progress.** The core hardware and firmware have been validated on the bench, and the project is now moving into real-world testing.
+
+- [x] Schematic and PCB design
+- [x] Sleep/wake firmware and thermistor logging
+- [x] Benchtop testing of energy harvesting, logging, and acoustic transmission
+- [ ] Real underwater deployment tests (in progress)
+
+Results from the underwater tests will be added here as they come in.
