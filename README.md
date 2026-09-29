@@ -81,16 +81,16 @@ flowchart LR
 ### PCB Layout
 
 <p align="center">
-  <img width="450" src="https://github.com/user-attachments/assets/05c52dc5-d40d-4570-9002-53944f26b4a1" alt="PCB layout, top">
-  <img width="450" src="https://github.com/user-attachments/assets/11682b51-2d4f-44a4-a9de-dd3fa9ae748c" alt="PCB layout, bottom">
+  <img width="350" src="https://github.com/user-attachments/assets/05c52dc5-d40d-4570-9002-53944f26b4a1" alt="PCB layout, top">
+  <img width="350" src="https://github.com/user-attachments/assets/11682b51-2d4f-44a4-a9de-dd3fa9ae748c" alt="PCB layout, bottom">
 </p>
 <p align="center"><em>PCB layout on a 20.3 mm × 20.4 mm footprint</em></p>
 
 ### 3D Render
 
 <p align="center">
-  <img width="450" src="https://github.com/user-attachments/assets/d4fe16e6-0846-4fea-b715-440f881fc52f" alt="3D render, front">
-  <img width="450" src="https://github.com/user-attachments/assets/e6593780-d1bf-401c-b4e1-b4f43efd624c" alt="3D render, back">
+  <img width="225" src="https://github.com/user-attachments/assets/d4fe16e6-0846-4fea-b715-440f881fc52f" alt="3D render, front">
+  <img width="225" src="https://github.com/user-attachments/assets/e6593780-d1bf-401c-b4e1-b4f43efd624c" alt="3D render, back">
 </p>
 <p align="center"><em>3D board render, front and back</em></p>
 
