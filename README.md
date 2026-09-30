@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img width="480" src="https://github.com/user-attachments/assets/d4fe16e6-0846-4fea-b715-440f881fc52f" alt="Data logger board render">
+  <img width="450" alt="image" src="https://github.com/user-attachments/assets/5a967971-d4cf-4545-88cc-2efe8994daf1" />
 </p>
 
 <p align="center">
