@@ -18,6 +18,19 @@
 
 ---
 
+## Problem Statement
+
+Long-term underwater temperature data matters for ocean and climate research, aquaculture, and monitoring aquatic ecosystems. However, most underwater data loggers share the same limitations:
+
+- **Battery-limited lifespan:** Loggers run until their battery dies, so deployment length is capped by battery size.
+- **Costly retrieval:** Replacing batteries and downloading data usually means recovering the device by boat or diver, which is expensive and sometimes impractical at remote sites.
+- **Environmental waste:** Lost or abandoned battery-powered devices leave batteries and electronics in the water.
+- **No easy wireless link:** Radio signals are absorbed within a short distance in water, so standard wireless options like Wi-Fi, Bluetooth, and LoRa don't work, and running cables to the surface is impractical.
+
+**Goal:** Build a small, low-cost logger that powers itself from energy already present in the water and sends its data out without needing to be retrieved.
+
+This project addresses each problem directly: a piezoelectric harvester and supercapacitor replace the battery, a sleep/wake firmware cycle makes the most of a small and irregular energy supply, and an acoustic link carries data through the water where radio can't.
+
 ## Overview
 
 This project is a self-powered underwater data logger built around a **PIC16F1823 microcontroller** and a **TI BQ25570** energy-harvesting IC. A piezoelectric element converts water-borne vibration into electrical energy, which is stored in a **supercapacitor** and used to sustain long-term temperature logging with **no battery or external power source**.
